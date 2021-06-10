@@ -8,7 +8,7 @@ case "${unameOut}" in
     MINGW*)     machine=MinGw;;
     *)          machine="UNKNOWN:${unameOut}"
 esac
-if [[ $machine -eq "Linux" ]] 
+if [[ $machine == "Linux" ]] 
 then
   sudo apt update
   sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0 gir1.2-webkit2-4.0
