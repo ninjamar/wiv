@@ -5,5 +5,6 @@
 - [ ] Make faster
 ### In progress
 - [ ] Add search bar
+- [ ] Make name
 ### Done ✓
 - [x] Render page 
