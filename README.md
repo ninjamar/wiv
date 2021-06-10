@@ -1,4 +1,4 @@
-# browser
+# viw
 A browser made in python using webkit
 
 ## installation
