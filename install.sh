@@ -17,3 +17,4 @@ then
   git clone https://github.com/ninjamar/wiv --depth 1
   sudo echo 'alias wiv=~"python3 /wiv/wiv/wiv.py"' >> ~/.bashrc
   sudo source ~/.bashrc
+fi
