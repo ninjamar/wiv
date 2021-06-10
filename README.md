@@ -5,4 +5,5 @@ A browser made in python using webkit
 ```bash
 wget raw.githubusercontent.com/ninjamar/wiv/main/install.sh
 sudo bash install.sh
+rm install.sh
 ```
