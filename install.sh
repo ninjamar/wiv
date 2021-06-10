@@ -14,6 +14,7 @@ then
   sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0 gir1.2-webkit2-4.0
   pip3 install pycairo
   pip3 install pygobject
+  rm wiv
   git clone https://github.com/ninjamar/wiv --depth 1
   sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.bashrc
   source ~/.bashrc
