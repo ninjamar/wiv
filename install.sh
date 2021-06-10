@@ -1,4 +1,4 @@
-#this file installs viw and all it's dependencies
+#this file installs wiv and all it's dependencies
 #this file currently only works on linux
 unameOut="$(uname -s)"
 case "${unameOut}" in
