@@ -5,7 +5,7 @@ gi.require_version('WebKit2','4.0')
 from gi.repository import Gtk,WebKit2
 class Window(Gtk.Window):
     def __init__(self):
-        Gtk.Window.__init__(self,title="Viw")
+        Gtk.Window.__init__(self,title="Wiv")
         self.connect('destroy',Gtk.main_quit)
         self.webview = WebKit2.WebView()
         self.head = Gtk.HeaderBar()
