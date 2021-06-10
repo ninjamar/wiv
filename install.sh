@@ -15,6 +15,6 @@ then
   pip3 install pycairo
   pip3 install pygobject
   git clone https://github.com/ninjamar/wiv --depth 1
-  sudo echo 'alias wiv-browser="python3 /wiv/wiv/wiv.py"' >> ~/.bashrc
+  sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.bashrc
   source ~/.bashrc
 fi
