@@ -5,6 +5,6 @@
 ### In progress
 - [ ] Better search bar
    - [x] Better bar sizing
-   - [ ]Bar reflects current page
+   - [ ] Bar reflects current page
 ### Done
 - [x] Render page
