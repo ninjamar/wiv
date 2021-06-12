@@ -1,10 +1,10 @@
 ### Todo
 - [ ] Make settings page
-- [ ] Add more features
-  - [ ] Tabs
+- [ ] Add tabs
 - [ ] Make faster
 ### In progress
-- [ ] Add search bar
-- [ ] Make name
-### Done ✓
-- [x] Render page 
+- [ ] Better search bar
+   - [x] Better bar sizing
+   - [ ]Bar reflects current page
+### Done
+- [x] Render page
