@@ -30,4 +30,9 @@ To run, execute `python3 C:\wiv\wiv\wiv.py` or add a command to your system usin
 ### MacOS (Untested)
 ```bash
 brew install pygobject3 gtk+3
+pip3 install requests
+git clone https://github.com/ninjamar/wiv --depth 1
+sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.bashrc
+source ~/.bashrc
 ```
+To run, execute `wiv`
