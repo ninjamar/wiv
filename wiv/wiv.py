@@ -1,3 +1,8 @@
+import gi
+gi.require_version('Gtk','3.0')
+gi.require_version('Webit2','4.0')
+from gi.repository import Gtk,Webkit2
+from urllib.parse import urlparse
 import requests
 class Window(Gtk.Window):
     def __init__(self):
