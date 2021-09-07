@@ -32,7 +32,7 @@ To run, execute `python3 C:\wiv\wiv\wiv.py` or add a command to your system usin
 brew install pygobject3 gtk+3
 pip3 install requests
 git clone https://github.com/ninjamar/wiv --depth 1
-sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.bashrc
+sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.zprofile
 source ~/.bashrc
 ```
 To run, execute `wiv`
