@@ -12,27 +12,6 @@ git clone https://github.com/ninjamar/wiv --depth 1
 sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.bashrc
 source ~/.bashrc
 ```
-To run, execute `wiv`
-### Windows (Untested)
-Go to [this](https://www.msys2.org/) and download the x86_64 installer. 
-Follow the instructions on the page for the setup. 
-Run `C:\msys64\mingw64.exe` - a  terminal window should popup.
- 
-```bash
-pacman -Suy 
-pacman -S mingw-w64-x86_64-gtk3 mingw-w64-x86_64-python3 mingw-w64-x86_64-python3-gobject
-pip3 install requests
-rm -r wiv
-git clone https://github.com/ninjamar/wiv --depth 1
-```
-To run, execute `python3 C:\wiv\wiv\wiv.py` or add a command to your system using [this](https://stackoverflow.com/questions/20530996/aliases-in-windows-command-prompt)
-
-### MacOS (Untested)
-```bash
-brew install pygobject3 gtk+3
-pip3 install requests
-git clone https://github.com/ninjamar/wiv --depth 1
-sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.zprofile
-source ~/.zprofile # you can also restart the terminal
-```
+# This program only works on linux
+I will try to make a version supported on Mac and Windows
 To run, execute `wiv`
