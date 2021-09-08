@@ -33,6 +33,6 @@ brew install pygobject3 gtk+3
 pip3 install requests
 git clone https://github.com/ninjamar/wiv --depth 1
 sudo echo 'alias wiv="python3 ~/wiv/wiv/wiv.py"' >> ~/.zprofile
-source ~/.bashrc
+source ~/.zprofile # you can also restart the terminal
 ```
 To run, execute `wiv`
